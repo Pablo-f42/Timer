@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #232323);
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.minutes {
+    border-style: none;
+    background-color: rgb(101, 101, 101);
+    color: #dbdbdb;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.countdown {
+    font-size: 500px;
+    font-weight: 700;
+    color: #dbdbdb;
+    margin-top: 60px;
+}
+
+.iniciar {
+    border-style: none;
+    background-color: rgb(100, 215, 37);
+    color: #232323;
+}
