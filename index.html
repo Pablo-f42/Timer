@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuenta Regresiva</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coder Break</title>
+  <link  rel="icon" type="image/png" href="https://em-content.zobj.net/thumbs/320/toss-face/330/robot_1f916.png">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Cuenta Regresiva</h1>
-    <label for="minutes">Ingresa los minutos:</label>
 
-    <input class="minutes" type="number" id="minutes" min="1" value="1">
-
-    <button class="iniciar" onclick="startCountdown()">Iniciar</button>
-
+  
+  <div class="full">
     <div class="countdown" id="countdownDisplay">00:00</div>
+    
+    <div class="control">
+      <input class="minutes" type="number" id="minutes" min="1" value="1">
+      <button class="iniciar" onclick="startCountdown()">INICIAR</button>
+    </div>
 
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/6Z4gbxrzelqVU3syDH3JzI?utm_source=generator" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5trt9i14X7j?utm_source=generator&theme=0" width="40%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
 
     <script src="main.js"></script>
+  
 </body>
 </html>
+
